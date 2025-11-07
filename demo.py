@@ -5,9 +5,9 @@
 #    #print(f"you entered {user_in})
     
 while True:
-    try:
-       user_in = int(input("enter a number: "))
-    except ValueError:
-       print("that wasn't right!")
-    print(user_in)
+   try:
+      user_in = int(input("enter a number: "))
+   except ValueError:
+      print("that wasn't right!")
+   print(user_in)
         
